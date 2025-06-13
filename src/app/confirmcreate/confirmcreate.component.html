@@ -1,0 +1,10 @@
+<h1 mat-dialog-title>{{data.title}}</h1>
+<mat-form-field class="example-form-field">
+  <mat-label>Name Here</mat-label>
+  <input matInput type="text" [(ngModel)]="value1">
+</mat-form-field>
+<div style="float:right;margin:20px;">
+  <button (click)="dialogRef.close(value1)">create</button>  
+  <button (click)="dialogRef.close(false)">cancel</button>
+  
+</div>
