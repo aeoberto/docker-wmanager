@@ -9,11 +9,11 @@ This project is a web application with a Node.js backend and Angular frontend. I
 Before getting started, make sure the following are installed on your system:
 Docker
 
-    Node.js
-    npm
-    Angular CLI
-    Dockerode
-    Express
+-Node.js
+-npm
+-Angular CLI
+-Dockerode
+-Express
 
     npm install -g npm         # Install/upgrade npm 
     npm install dockerode      # Install Dockerode
@@ -29,9 +29,9 @@ Go to https://www.docker.com/products/docker-desktop/, click install docker desk
 
 Start the backend server with:
 
-node express_api.js
+    node express_api.js
 
 Navigate to the frontend directory then run:
 
-ng serve
+    ng serve
 
